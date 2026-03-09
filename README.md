@@ -8,3 +8,14 @@ Lors de l’écriture des tests unitaires pour la méthode `isPalindrome`, le te
 
 ```java
 assertTrue(Palindrome.isPalindrome("kayak"));
+
+La cause : 
+```java
+while (i < j) {
+    if (s.charAt(i) != s.charAt(j)) {
+        return false;
+    }
+    j++;
+    i--;
+}
+
