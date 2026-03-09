@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TP1.LineCoverageTest.Exo1Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.155 s <<< FAILURE! -- in TP1.LineCoverageTest.Exo1Test
+TP1.LineCoverageTest.Exo1Test.palindrome -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: Index -1 out of bounds for length 5
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4917)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1616)
+	at TP1.Palindrome.isPalindrome(Palindrome.java:12)
+	at TP1.LineCoverageTest.Exo1Test.palindrome(Exo1Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
