@@ -19,4 +19,21 @@ while (i < j) {
     i--;
 }
 ```
+## Exercice 2 – Anagram
 
+### Problème détecté
+
+La boucle utilise la condition :
+```java
+for (int i = 0; i <= s1.length(); i++)
+```
+Cela peut provoquer un dépassement d’indice.
+
+### Cause
+
+La condition `<=` parcourt un indice qui n'existe pas dans le tableau.
+
+### Correction proposée
+```java
+for (int i = 0; i < s1.length(); i++)
+```
