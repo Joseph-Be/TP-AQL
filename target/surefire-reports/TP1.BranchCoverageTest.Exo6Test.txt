@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TP1.BranchCoverageTest.Exo6Test
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.148 s <<< FAILURE! -- in TP1.BranchCoverageTest.Exo6Test
+TP1.BranchCoverageTest.Exo6Test.shouldNotThrowWhenValueIsValid -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IllegalArgumentException: n must be positive
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:75)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:58)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3228)
+	at TP1.BranchCoverageTest.Exo6Test.shouldNotThrowWhenValueIsValid(Exo6Test.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: java.lang.IllegalArgumentException: n must be positive
+	at TP1.FizzBuzz.fizzBuzz(FizzBuzz.java:6)
+	at TP1.BranchCoverageTest.Exo6Test.lambda$shouldNotThrowWhenValueIsValid$0(Exo6Test.java:16)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:71)
+	... 6 more
+

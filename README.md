@@ -94,3 +94,30 @@ for (int i = 0; i < symbols.length; i++) {
     }
 }
 ```
+
+
+## Exercice 6 – FizzBuzz
+
+### Problème détecté
+
+Le code fourni contient la condition :
+
+```java
+if (n <= 1) {
+    throw new IllegalArgumentException("n must be positive");
+}
+```
+### Cause
+Cette condition rejette la valeur `1`, alors que `1` est un entier positif.
+
+Il y a donc une incohérence entre :
+
+- la condition `n <= 1`
+
+- le message `"n must be positive"`
+### Correction proposée
+```java
+if (n < 1) {
+    throw new IllegalArgumentException("n must be positive");
+}
+```
