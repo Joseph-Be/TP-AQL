@@ -66,3 +66,31 @@ Les tests couvrent les cas suivants :
 
 Remarque :
 Pour cet exercice, les jeux de tests de couverture de lignes, de branches et de conditions sont très proches.
+
+## Exercice 5 – RomanNumeral
+
+### Problèmes détectés
+
+Le code fourni contient deux erreurs :
+
+1. La boucle `for` utilise :
+   `for (int i = 0; i <= symbols.length; i++)`
+
+2. La boucle `while` utilise :
+   `while (n > values[i])`
+
+### Causes
+
+- Dans la boucle `for`, la condition `<= symbols.length` est incorrecte, car le dernier indice valide est `symbols.length - 1`. Cela peut provoquer un dépassement d’indice.
+- Dans la boucle `while`, la condition `>` est incorrecte. Elle empêche de traiter les cas où `n` est exactement égal à une valeur romaine, par exemple 1, 4, 5, 9, 10, etc.
+
+### Correction proposée
+
+```java
+for (int i = 0; i < symbols.length; i++) {
+    while (n >= values[i]) {
+        sb.append(symbols[i]);
+        n -= values[i];
+    }
+}
+```

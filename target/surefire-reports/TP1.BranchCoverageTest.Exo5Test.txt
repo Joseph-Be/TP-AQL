@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TP1.BranchCoverageTest.Exo5Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.118 s <<< FAILURE! -- in TP1.BranchCoverageTest.Exo5Test
+TP1.BranchCoverageTest.Exo5Test.shouldHandleSubtractiveNotation -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13
+	at TP1.RomanNumeral.toRoman(RomanNumeral.java:14)
+	at TP1.BranchCoverageTest.Exo5Test.shouldHandleSubtractiveNotation(Exo5Test.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TP1.BranchCoverageTest.Exo5Test.shouldEnterLoopForLargeNumber -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13
+	at TP1.RomanNumeral.toRoman(RomanNumeral.java:14)
+	at TP1.BranchCoverageTest.Exo5Test.shouldEnterLoopForLargeNumber(Exo5Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

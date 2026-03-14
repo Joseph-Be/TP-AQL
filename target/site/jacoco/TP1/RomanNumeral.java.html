@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RomanNumeral.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TP1</a> &gt; <a href="index.source.html" class="el_package">TP1</a> &gt; <span class="el_source">RomanNumeral.java</span></div><h1>RomanNumeral.java</h1><pre class="source lang-java linenums">package TP1;
+
+<span class="nc" id="L3">public class RomanNumeral {</span>
+    public static String toRoman(int n) {
+<span class="fc bfc" id="L5" title="All 4 branches covered.">        if (n &lt; 1 || n &gt; 3999) {</span>
+<span class="fc" id="L6">            throw new IllegalArgumentException(&quot;n must be between 1 and 3999&quot;);</span>
+        }
+
+<span class="fc" id="L9">        String[] symbols = {&quot;M&quot;, &quot;CM&quot;, &quot;D&quot;, &quot;CD&quot;, &quot;C&quot;, &quot;XC&quot;, &quot;L&quot;, &quot;XL&quot;, &quot;X&quot;, &quot;IX&quot;, &quot;V&quot;, &quot;IV&quot;, &quot;I&quot;};</span>
+<span class="fc" id="L10">        int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};</span>
+
+<span class="fc" id="L12">        StringBuilder sb = new StringBuilder();</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">        for (int i = 0; i &lt; symbols.length; i++) {</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">            while (n &gt;= values[i]) {</span>
+<span class="fc" id="L15">                sb.append(symbols[i]);</span>
+<span class="fc" id="L16">                n -= values[i];</span>
+            }
+        }
+<span class="fc" id="L19">        return sb.toString();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
