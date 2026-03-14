@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TP1.ConditionCoverageTest.Exo2Test
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in TP1.ConditionCoverageTest.Exo2Test
-TP1.ConditionCoverageTest.Exo2Test.validAnagram -- Time elapsed: 0.003 s <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! -- in TP1.ConditionCoverageTest.Exo2Test
+TP1.ConditionCoverageTest.Exo2Test.validAnagram -- Time elapsed: 0.005 s <<< ERROR!
 java.lang.StringIndexOutOfBoundsException: Index 5 out of bounds for length 5
 	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
 	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)

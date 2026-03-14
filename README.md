@@ -37,3 +37,19 @@ La condition `<=` parcourt un indice qui n'existe pas dans le tableau.
 ```java
 for (int i = 0; i < s1.length(); i++)
 ```
+
+## Exercice 3 – BinarySearch
+
+### Problème détecté
+
+Le code fourni utilise :
+
+```java
+while (low < high)
+```
+Cela empêche de tester correctement le dernier cas où low == high.
+
+### Correction proposée
+```java
+while (low <= high)
+```

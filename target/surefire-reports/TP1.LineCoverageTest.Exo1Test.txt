@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TP1.LineCoverageTest.Exo1Test
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.116 s <<< FAILURE! -- in TP1.LineCoverageTest.Exo1Test
-TP1.LineCoverageTest.Exo1Test.palindrome -- Time elapsed: 0.010 s <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.020 s <<< FAILURE! -- in TP1.LineCoverageTest.Exo1Test
+TP1.LineCoverageTest.Exo1Test.palindrome -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.StringIndexOutOfBoundsException: Index -1 out of bounds for length 5
 	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
 	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)

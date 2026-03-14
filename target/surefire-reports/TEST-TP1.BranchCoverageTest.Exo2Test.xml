@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/jdk-24.0.1/lib"/>
-    <property name="sun.java.command" value="/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire/surefirebooter-20260311011510359_3.jar /home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire 2026-03-11T01-15-10_244-jvmRun1 surefire-20260311011510359_1tmp surefire_0-20260311011510359_2tmp"/>
+    <property name="sun.java.command" value="/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire/surefirebooter-20260314141645005_3.jar /home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire 2026-03-14T14-16-44_877-jvmRun1 surefire-20260314141645005_1tmp surefire_0-20260314141645005_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/test-classes:/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/classes:/home/joseph/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/joseph/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/joseph/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/joseph/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/joseph/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/joseph/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/joseph/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/joseph/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/joseph/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire/surefirebooter-20260311011510359_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/joseph/Desktop/EtudeS2/AQL/TP/TP1/target/surefire/surefirebooter-20260314141645005_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
     <property name="user.name" value="joseph"/>
@@ -52,7 +52,6 @@
     <property name="java.vm.version" value="24.0.1+9-30"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
-    <property name="maven.test.failure.ignore" value="true"/>
   </properties>
   <testcase name="anagramTrue" classname="TP1.BranchCoverageTest.Exo2Test" time="0.004">
     <error message="Index 6 out of bounds for length 6" type="java.lang.StringIndexOutOfBoundsException"><![CDATA[java.lang.StringIndexOutOfBoundsException: Index 6 out of bounds for length 6
@@ -73,7 +72,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="differentLengths" classname="TP1.BranchCoverageTest.Exo2Test" time="0.001"/>
-  <testcase name="anagramFalse" classname="TP1.BranchCoverageTest.Exo2Test" time="0.001"/>
-  <testcase name="nullInput" classname="TP1.BranchCoverageTest.Exo2Test" time="0.002"/>
+  <testcase name="differentLengths" classname="TP1.BranchCoverageTest.Exo2Test" time="0.002"/>
+  <testcase name="anagramFalse" classname="TP1.BranchCoverageTest.Exo2Test" time="0.002"/>
+  <testcase name="nullInput" classname="TP1.BranchCoverageTest.Exo2Test" time="0.003"/>
 </testsuite>
