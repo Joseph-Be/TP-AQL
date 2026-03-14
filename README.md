@@ -53,3 +53,16 @@ Cela empêche de tester correctement le dernier cas où low == high.
 ```java
 while (low <= high)
 ```
+
+## Exercice 4 – QuadraticEquation
+
+Aucun bug évident détecté dans le code fourni.
+
+Les tests couvrent les cas suivants :
+- a == 0 → exception
+- delta < 0 → null
+- delta == 0 → une racine
+- delta > 0 → deux racines
+
+Remarque :
+Pour cet exercice, les jeux de tests de couverture de lignes, de branches et de conditions sont très proches.
